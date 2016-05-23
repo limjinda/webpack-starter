@@ -26,9 +26,12 @@ module.exports = {
 		filename: 'bundle.js',
 		path: __dirname + '/dist',
 		publicPath: '/dist'
-		historyApiFallback: true,
-		sourceMapFilename: 'bundle.js.map'
 	},
+	devServer: {
+		sourceMapFilename: 'bundle.js.map',
+    hot: true,
+    historyApiFallback: true
+  }
 	// plugins: [
 	// 	new webpack.optimize.UglifyJsPlugin({
 	// 		compress: { warnings: false }
