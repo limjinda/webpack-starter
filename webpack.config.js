@@ -25,7 +25,7 @@ module.exports = {
 	output: {
 		filename: 'bundle.js',
 		path: __dirname + '/dist',
-		publicPath: '/assets/',
+		publicPath: '/dist'
 		historyApiFallback: true,
 		sourceMapFilename: 'bundle.js.map'
 	},
