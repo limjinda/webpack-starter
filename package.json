@@ -1,0 +1,33 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "A simple starter kit for project that want to use webpack-dev-server",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jir4yu/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-dev-server"
+  ],
+  "author": "Jirayu Limjnda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jir4yu/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/jir4yu/webpack-starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}
